@@ -10,7 +10,7 @@ This script allows you to search for GitHub repositories using a specified keywo
    - wget (for fetching web pages)
    - jq (optional, for parsing JSON responses from GitHub API)
 
-#LINUX
+# LINUX
 
 #### First change the permission with:
 
@@ -40,18 +40,18 @@ Save results to a file:
 If the name is just one word,remove the plus sign
 
 
-#WINDOWS(Powershell)
+# WINDOWS(Powershell)
 
-###Execution Policy:
+### Execution Policy:
 
 - Ensure PowerShell execution policy allows running scripts. You can set it using:
 
         Set-ExecutionPolicy RemoteSigned
 
-  		Choose Y (Yes) to confirm.
+  Choose Y (Yes) to confirm.
 
    
-####Command Syntax
+#### Command Syntax
 
 
 	.\reposearch.ps1 <search_keyword> [output_file]
@@ -59,17 +59,17 @@ If the name is just one word,remove the plus sign
 - <search_keyword>: Specify the keyword to search for repositories on GitHub.
 - [output_file] (optional): If provided, the script will save the results to this file. If not provided, results will be displayed in the terminal.
 
-##Examples
+## Examples
 
 - Display results in the terminal:
 
 
-	.\reposearch.ps1 machine+learning
+		.\reposearch.ps1 machine+learning
 
 - Save results to a file:
 
 
-	.\reposearch.ps1 machine+learning results.txt
+		.\reposearch.ps1 machine+learning results.txt
 
 If the name is just one word,remove the plus sign
 - 
