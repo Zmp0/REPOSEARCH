@@ -12,7 +12,7 @@ Requirements
 Command Syntax
 
 
-    github-search <search_keyword> [output_file]
+    reposearch.sh <search_keyword> [output_file]
 
   <search_keyword>: Specify the keyword to search for repositories on GitHub.
   [output_file] (optional): If provided, the script will save the results to this file. If not provided, results will be displayed in the terminal.
