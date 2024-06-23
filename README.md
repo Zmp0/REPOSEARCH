@@ -11,7 +11,6 @@ Requirements
 
 Command Syntax
 
-    sh
 
     github-search <search_keyword> [output_file]
 
@@ -22,12 +21,10 @@ Examples
 
     Display results in the terminal:
 
-    sh
 
     reposearch.sh "machine learning"
 
 Save results to a file:
 
-    sh
 
     reposearch.sh "machine learning" results.txt
