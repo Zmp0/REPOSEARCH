@@ -29,3 +29,6 @@ Save results to a file:
 
 
     ./reposearch.sh machine+learning results.txt
+
+
+If the name is just one word,remove the plus sign
