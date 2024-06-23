@@ -6,9 +6,9 @@ This script allows you to search for GitHub repositories using a specified keywo
 
 #### Requirements
 
-    Bash (Bourne Again SHell)
-    wget (for fetching web pages)
-    jq (optional, for parsing JSON responses from GitHub API)
+   - Bash (Bourne Again SHell)
+   - wget (for fetching web pages)
+   - jq (optional, for parsing JSON responses from GitHub API)
 
 #### First change the permission with:
 
